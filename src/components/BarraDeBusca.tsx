@@ -3,7 +3,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { useState } from "react";
 
 const BarraDeBusca = () => {
-  const [cidade, setCidade] = useState("");
+  const [_cidade, setCidade] = useState("");
 
   return (
     <div className="rounded-lg bg-gray-700 p-4 mt-2">
