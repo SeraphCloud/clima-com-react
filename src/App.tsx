@@ -53,12 +53,14 @@ function App() {
 
         <BarraDeBusca />
 
-        {/* Placeholders restantes */}
+        {/* Current Weather */}
         <div className="mt-6 rounded-lg bg-gray-700 p-4">
           <ClimaAtual />
         </div>
-        <div className="mt-6 rounded-lg bg-gray-700 p-4">
-          <p>Aqui ficará a Previsão Estendida...</p>
+
+        {/* Extended Forecast */}
+        <div className="mt-6">
+          <PrevisaoEstendida forecastData={sampleForecast} />
         </div>
       </div>
     </div>
